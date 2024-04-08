@@ -1,0 +1,85 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 500;
+}
+
+.schedule-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 4rem 0;
+    font-family: -system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.schedule-table {
+    width: 100%;
+    border: 1px solid black;
+    /* max-width: 50rem; */
+}
+
+.s-t-horizontal-scroll {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.schedule-table-row:nth-child(even) th {
+    color: #ccc;
+    font-weight: normal;
+}
+.schedule-table-header,
+.schedule-table-data {
+    padding: 0.5rem 1rem;
+}
+.schedule-table-header {
+    font-weight: normal;
+    /* border-top: thin ridge #ccc; */
+    border: 1px solid black;
+}
+.schedule-table-data {
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.4;
+    border-radius: 0.2rem;
+    transition: opacity 0.3s ease;
+    /* border-top: thin ridge #ccc; */
+    border: 1px solid black;
+}
+.schedule-table-data > span {
+    font-size: 0.9em;
+    font-weight: normal;
+    display: block;
+    width: 100%;
+}
+.stage-earth {
+    background-color: #ffa726;
+}
+.stage-mercury {
+    background-color: #9ccc65;
+}
+.stage-venus {
+    background-color: #ff8a65;
+}
+.stage-mars {
+    background-color: #b3e5fc;
+}
+.stage-jupiter {
+    background-color: #81d4fa;
+}
+.stage-saturn {
+    background-color: #26c6da;
+}
+
+.schedule-table-header-cols {
+    border: 1px solid black;
+    /* height: 200px; */
+}
+
+.calendar-date-selected {
+    /* color: blue; */
+    background-color: blue !important;
+    color: white;
+}

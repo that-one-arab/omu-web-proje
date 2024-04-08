@@ -1,0 +1,1 @@
+Only authorized routes live here

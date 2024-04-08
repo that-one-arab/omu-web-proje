@@ -1,0 +1,15 @@
+.all-appointments-header-first-col {
+    display: flex;
+    align-items: center;
+}
+
+.all-appointments-header-second-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-appointments-header-second-col p {
+    font-size: 30px;
+    margin-top: 10px;
+}

@@ -1,0 +1,52 @@
+.apploader {
+    transition: all 200ms;
+    background-color: rgba(0, 0, 0, 0.438);
+    height: 100vh;
+    /* font-size: 80px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.grabbable {
+    cursor: grab;
+}
+
+.CDataTable input {
+    background-color: red!;
+    border: solid 1.5px purple;
+}
+
+.current {
+    color: rgb(43, 7, 204);
+}
+
+.header-items {
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+.bold {
+    font-weight: bol;
+}
+
+.date-fields-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.date-fields-seperator-slash {
+    position: relative;
+    top: 5px;
+}
+
+.temp {
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+}
